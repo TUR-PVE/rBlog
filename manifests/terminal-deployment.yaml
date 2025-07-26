@@ -21,7 +21,7 @@ spec:
         io.kompose.service: terminal
     spec:
       containers:
-        - image: ghcr.io/m4tt72/terminal:svelte
+        - image: ghcr.io/tur-pve/rblog:main
           livenessProbe:
             exec:
               command:
