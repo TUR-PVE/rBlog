@@ -20,6 +20,8 @@ spec:
       labels:
         io.kompose.service: terminal
     spec:
+      imagePullSecrets:
+        - name: ghcr-secret
       containers:
         - image: ghcr.io/tur-pve/rblog:main
           livenessProbe:
