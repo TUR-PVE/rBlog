@@ -23,7 +23,7 @@ spec:
       imagePullSecrets:
         - name: ghcr-secret
       containers:
-        - image: ghcr.io/tur-pve/rblog:sha-da7c2de # {"$imagepolicy": "flux-system:blog-policy"}
+        - image: ghcr.io/tur-pve/rblog:sha-41cd9f9 # {"$imagepolicy": "flux-system:blog-policy"}
           livenessProbe:
             exec:
               command:
