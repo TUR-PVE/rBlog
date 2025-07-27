@@ -5,17 +5,13 @@
   "type": "module",
   "license": "MIT",
   "author": {
-    "name": "Yassine Fathi",
-    "url": "https://fathi.me",
-    "email": "yassine@fathi.me"
-  },
-  "funding": {
-    "type": "Paypal",
-    "url": "https://paypal.me/yfthi"
+    "name": "Nabil BEN SALAH",
+    "url": "https://r2b001",
+    "email": "nabil.bsalah0@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/m4tt72/terminal"
+    "url": "https://github.com/TUR-PVE/rBlog"
   },
   "scripts": {
     "dev": "vite",

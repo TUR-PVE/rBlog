@@ -10,9 +10,6 @@ export const commands: Record<string, (args: string[]) => Promise<string> | stri
   hostname: () => hostname,
   whoami: () => 'guest',
   date: () => new Date().toLocaleString(),
-  vi: () => `why use vi? try 'emacs'`,
-  vim: () => `why use vim? try 'emacs'`,
-  emacs: () => `why use emacs? try 'vim'`,
   echo: (args: string[]) => args.join(' '),
   sudo: (args: string[]) => {
     window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
@@ -77,11 +74,6 @@ export const commands: Record<string, (args: string[]) => Promise<string> | stri
     window.open(`mailto:${packageJson.author.email}`);
 
     return `Opening mailto:${packageJson.author.email}...`;
-  },
-  donate: () => {
-    window.open(packageJson.funding.url, '_blank');
-
-    return 'Opening donation url...';
   },
   weather: async (args: string[]) => {
     const city = args.join('+');
