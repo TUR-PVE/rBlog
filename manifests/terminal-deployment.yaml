@@ -21,7 +21,7 @@ spec:
         io.kompose.service: terminal
     spec:
       imagePullSecrets:
-        - name: ghcr-secret
+        - name: ghcr-secret2
       containers:
         - image: ghcr.io/tur-pve/rblog:sha-3bbb731 # {"$imagepolicy": "flux-system:blog-policy"}
           livenessProbe:
