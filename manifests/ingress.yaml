@@ -6,7 +6,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: r2b001.site
+  - host: terminal.app.r2b001.site
     http:
       paths:
       - backend:
